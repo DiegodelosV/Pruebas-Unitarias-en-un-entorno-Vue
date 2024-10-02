@@ -1,6 +1,6 @@
 # Pruebas Unitarias en un entorno Vue
 
-## Tecnológia usada
+## 📝 Tecnológia usada
 
 - **Node.js**
 - **Vue CLI**
@@ -8,16 +8,16 @@
 - **Babel**
 
   ```bash
-  npm install -g @vue/cli
+  npm install vue@latest
 
   ```
 
-## Instalación
+## 💻 Instalación
 
 - Clona el repositorio:
 
   ```bash
-  git clone 
+  git clone https://github.com/DiegodelosV/Pruebas-Unitarias-en-un-entorno-Vue
   ```
 
 - Entra al directorio del proyecto: `cd test-router`
