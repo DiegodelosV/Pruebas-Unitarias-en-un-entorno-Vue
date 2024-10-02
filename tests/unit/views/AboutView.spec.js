@@ -30,4 +30,9 @@ describe("AboutView", () => {
     const wrapper = mount(AboutView);
     expect(wrapper.html()).toMatchSnapshot();
   });
+
+  test("si el texto que muestra en h1 es el correcto", () => {
+    const wrapper = mount(AboutView);
+    expect(wrapper.find("h1").text()).toBe("Hola mundo");
+  });
 });
